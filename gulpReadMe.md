@@ -6,7 +6,8 @@ gulp is the node based tool which is used to automate the several repetitive tas
 
 About
 -------------
-To simplify the process of using gulp here i had try to creating the medium as a config file , where user will specify the required configs in json file and based on that it gulp tasks will generate the output files Task Provided
+To simplify the process of using gulp here i had try to creating the medium as a config file , where user will specify the required configs in json file and based on that it gulp tasks will generate the output files
+
 -------------
   - minifyJs - generate minified version of js file of source directory
   - minifyCss - generate minified version of css file of source directory
