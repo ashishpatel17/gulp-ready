@@ -108,7 +108,7 @@ Dependent Node Modules
  - path - [<i ></i> nodejs.org](https://nodejs.org/en/)
  - gulp -  [<i ></i> npmjs.com/package/gulp](https://www.npmjs.com/package/gulp)
  - gulp-rename -  [<i ></i> npmjs.com/package/gulp-rename](https://www.npmjs.com/package/gulp-rename)
- - gulp-cssnano -  [<i ></i> npmjs.com/package/gulp-cssnano](https://www.npmjs.com/package/gulp-cssnano)
+ - gulp-cssmin -  [<i ></i> npmjs.com/package/gulp-cssmin](https://www.npmjs.com/package/gulp-cssmin)
  - gulp-uglify -  [<i ></i> npmjs.com/package/gulp-uglify](https://www.npmjs.com/package/gulp-uglify)
  - gulp-concat -  [<i ></i> npmjs.com/package/gulp-concat](https://www.npmjs.com/package/gulp-concat)
  - gulp-plumber -  [<i ></i> npmjs.com/package/gulp-plumber](https://www.npmjs.com/package/gulp-plumber)
