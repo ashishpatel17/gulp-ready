@@ -1,0 +1,30 @@
+{
+    "project":"*/",
+    "ignore":["!node_modules/**/*"],
+    "generateGlobalFiles" : false,
+    "css":{
+      "baappsGlobal":{
+        "files":[
+          "assets/css/dmaterial.css",
+          "assets/css/sidebar.css",
+          "theme/css/jquery.fullpage.min.css",
+          "theme/css/baapps.css",
+          "theme/css/theme.css",
+          "theme/css/nprogress.css"
+        ]
+      }
+    },
+    "js":{
+      "baappsJs":{
+        "files":[
+          "theme/js/jquery.fullpage.min.js",
+          "assets/js/jquery.validate.js",
+          "theme/js/examples.js",
+          "theme/js/jquery.slimscroll.min.js",
+          "assets/js/bootstrap.min.js",
+          "assets/js/sidebar.js",
+          "assets/js/dmaterial.js"
+        ]
+      }
+    }
+}
