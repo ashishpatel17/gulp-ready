@@ -27,13 +27,17 @@ This gulp process will create the folder by name "guilpbuild" at specified outpu
  *  [uglifyJs]()
 
 ##### minifiedFiles
-	minifedFiles folder have the same directory structure as source path ,it holds similar folder and subfolders source path has and that folder contains the minified version of css and js.
+	minifedFiles folder have the same directory structure as source path ,it holds similar folder and subfolders source 
+	path has and that folder contains the minified version of css and js.
 
 	minifyCss and minifyJs task will do this process
 
 ##### uglifyCss , uglifyJs
 
-	This folder contain the merge uglified version of all css and js files inside the minifiedFiles folder . to generate the uglify file it use the config ,if list of css and js files is specify in config then tasks will generate the uglify files using that set of files , if not specified then it will merge all css and js exist inside the minifiedFiles folder and generate global.css anf global.js
+	This folder contain the merge uglified version of all css and js files inside the minifiedFiles folder . to generate
+	the uglify file it use the config ,if list of css and js files is specify in config then tasks will generate the 
+	uglify files using that set of files , if not specified then it will merge all css and js exist inside the minifiedFiles
+	folder and generate global.css anf global.js
 
 After all this files are generate use this files at required html pages
 
@@ -76,7 +80,8 @@ following parameters are necessary to specify in config file to execute task . g
 ##### outputDestination
 	specify path of the generated output files here
 ##### css , js
-	To generate the uglify files you can specify the json inside the css. keys will be considered as a name of files and each key values will be array which containe list of files or path of directory.
+	To generate the uglify files you can specify the json inside the css. keys will be considered as a name of
+	files and each key values will be array which containe list of files or path of directory.
 	Eg:  
 	"css":{
 	  "global":{ // create the global.min.css in uglifyCss folder
@@ -90,7 +95,8 @@ following parameters are necessary to specify in config file to execute task . g
 	       }
 
 ##### generateGlobalFiles
-	If true and css or js params is not specified in json then it will generate the merge and minified  global.min.css or global.min.js using all css and js files inside the minifiedFiles folder
+	If true and css or js params is not specified in json then it will generate the merge and minified 
+	global.min.css or global.min.js using all css and js files inside the minifiedFiles folder
 
 
 
