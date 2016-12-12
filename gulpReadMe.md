@@ -37,7 +37,7 @@ This gulp process will create the folder by name "guilpbuild" at specified outpu
 
 After all this files are generate use this files at required html pages
 
-----------
+
 
 
 gulpConfig.json
@@ -73,6 +73,8 @@ following parameters are necessary to specify in config file to execute task . g
 ```
 ##### project
 	specify path of the source project here
+##### ignore
+  	specify folders or any file to ignore in array
 ##### outputDestination
 	specify path of the generated output files here
 ##### css , js
@@ -84,7 +86,7 @@ following parameters are necessary to specify in config file to execute task . g
 	        "css/bootstrap.css",
 	        "css/scaffolding.css",
 	        "css/zdepth.css",
-	        "css/utilities.css"
+	        "css/utilities.css",
 	        "bootstrap/**/*.css" // target all css files of bootstrap folder and subfolders
 	          ]
 	       }
@@ -100,7 +102,7 @@ following parameters are necessary to specify in config file to execute task . g
  - Node.js - [<i ></i> nodejs.org](https://nodejs.org/en/)
  - Gulp -  [<i ></i> gulpjs.com](http://gulpjs.com/)
 
-  ----------
+
 
 Dependent Node Modules
 -------------
@@ -116,7 +118,7 @@ Dependent Node Modules
  - del -  [<i ></i> npmjs.com/package/del](https://www.npmjs.com/package/del)
  - run-sequence -  [<i ></i> npmjs.com/package/run-sequence](https://www.npmjs.com/package/run-sequence)
 
-  ----------
+
 
 
    Authour
