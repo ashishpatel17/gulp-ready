@@ -1,7 +1,9 @@
 {
-    "project":"*/",
+    "project":"**/",
     "ignore":["!node_modules/**/*"],
     "generateGlobalFiles" : false,
+    "enableGzip" : false,
+    "targetImageDirectory":"theme/images/",
     "css":{
       "baappsGlobal":{
         "files":[
